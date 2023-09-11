@@ -35,7 +35,7 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
       {path: 'register', component: RegisterComponent},
       {path: 'video', component: ViewComponent},
       {path: 'developers', component: DevelopersComponent}
-    ]),
+    ],{useHash:true}),
     ReactiveFormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
