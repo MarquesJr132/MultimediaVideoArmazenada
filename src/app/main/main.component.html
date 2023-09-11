@@ -1,0 +1,59 @@
+<nav class="navbar bg-body-tertiary nav-background sticky-top">
+  <div class="container-fluid margin">
+    <a class="navbar-brand text-white nav-tittle" >NeshFlix</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" (input)="search(myInput.value)" #myInput >
+<!--      <button class="btn btn-light" type="submit" (click)="search(pesquisarId)" formtarget="_blank">Procurar</button>-->
+
+      <button class="btn btn-danger sair-buttao" (click)="desev()">Desenvolvedores</button>
+      <button type="button" class="btn btn-danger sair-buttao" (click)="login()">Sair</button>
+    </form>
+  </div>
+</nav>
+<section class="margin body">
+  <div class="text-center margin-top tittle">
+    <button type="button" class="btn telaInicialBut" (click)="getAllVideos()">Todos</button>
+    <button type="button" class="btn btn-danger sair-buttao" (click)="getAllBookMark()">Favoritos</button>
+  </div>
+
+  <hr color="red">
+  <section class="margin-top">
+    <div class="">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 area">
+          <p class="tittleV text-center">Videos</p>
+          <br>
+            <div class="row">
+              <div style="cursor: pointer" (click)="verVideo(video.link,video.tittle,video.id)" class="col-lg-3 col-md-4 col-sm-6 text-center" *ngFor="let video of videos">
+                <div class="card mb-3 cards" >
+<!--                  <img src="https://drive.google.com/file/d/1vslBPuWmROlqY5q-zIF1jamqooVtZXxn/preview" class="card-img-top image-main" alt="...">-->
+<!--                  <p style="color: black">{{video.picture}}</p>-->
+                  <img src="{{video.picture}}" alt="" class="card-img-top image-main"  >
+                  <div class="card-body">
+                    <h5 class="card-title">{{video.tittle}}</h5>
+                    <div class="">
+                      <div>
+<!--                        <button [(ngModel)]="video.link" [(ngModel)]="video.title" type="button" class="btn btn-dark" (click)="verVideo(video.link,video.title)" style="margin-right: 5px;">Ver Video</button>-->
+<!--                        <button type="button" class="btn btn-danger sair-buttao " [(ngModel)]="video.id" (click)="bookMarkVideo(video.id)" >Favoritos</button>-->
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          <hr color="red">
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+</section>
+
+
+
+

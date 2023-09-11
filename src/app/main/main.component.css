@@ -1,0 +1,54 @@
+nav{
+  border-bottom: #363636 2px solid;
+}
+
+hr {
+  /*display: block;*/
+  height: 5px!important;
+  /*border: 0;*/
+  color: #e10000;
+  opacity: 1 !important;
+}
+.nav-background{
+  background-color: #000000 !important;
+  color: white;
+}
+.tittle{
+  font-family: "Cooper Hewitt Heavy", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.tittleV{
+  color: #ffffff;
+  /*border: red 1px solid;*/
+  font-family: "Cooper Hewitt Heavy", sans-serif;
+  text-shadow: 3px 3px #000000;
+  font-size: 24px;
+}
+.nav-tittle{
+  font-family: "Cooper Hewitt Heavy", sans-serif;
+  font-size: 30px;
+}
+.sair-buttao{
+  background-color: #ff0000;
+}
+.sair-buttao:hover{
+  transform:scale(1.05);
+}
+.sair-buttao{
+  margin-left: 5px;
+
+}
+.telaInicialBut{
+  background-color: #181717;
+  color: white;
+}
+.telaInicialBut:hover{
+  transform: scale(1.05);
+  background-color: #000000;
+}
+.area{
+  /*border-right: 2px solid red;*/
+}
+

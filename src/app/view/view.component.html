@@ -1,0 +1,74 @@
+<nav class="navbar  nav-background sticky-top">
+  <div class="container-fluid margin">
+    <a class="navbar-brand text-white nav-title">NeshFlix</a>
+
+    <form class="d-flex" role="search">
+
+      <button type="button" class="btn btn-light sair-buttao" style="margin-right: 20px" (click)="download()">Baixar
+      </button>
+      <button type="button" class="btn btn-danger sair-buttao " style="margin-right: 20px" (click)="bookmark()">
+        Adicionar a Favoritos
+      </button>
+      <button type="button" class="btn btn-danger sair-buttao" (click)="voltar()">Voltar a tela inicial</button>
+    </form>
+  </div>
+</nav>
+
+<section class="margin" style="margin-top: 40px">
+  <p class="title" style="font-size: 27px;">
+    <button class="filler"></button>
+    {{value2}}
+
+  </p>
+  <hr color="red">
+  <div class="row">
+    <div class="col-lg-8 col-md-12 col-sm-12">
+      <iframe [src]="value | safe" allow="autoplay" allowfullscreen>
+      </iframe>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <!--      Tipo,Ano, PG, Synopse-->
+      <div class="row margin-top">
+        <div class="col-lg-6 type"><p><strong>Tipo:</strong>{{video.tipo}}</p></div>
+        <div class="col-lg-6 year"><p><strong>Ano:</strong>{{video.ano}}</p></div>
+        <div class="col-lg-6 year"><p><strong>Duração:</strong>{{video.duration}}</p></div>
+<!--        <div class="col-lg-6 year"> <p><strong>PG:</strong>{{video.pg}}</p></div>-->
+        <div class="col-lg-12 synopse">
+          <p>{{video.synopse}}</p></div>
+      </div>
+
+
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <br>
+      <br>
+      <p class=" title2">Mais Recomendacoes</p>
+      <hr color="red">
+      <div class="row">
+        <div style="cursor: pointer" (click)="verVideo(video.link,video.tittle,video.id)"
+             class="col-lg-3 col-md-4 col-sm-6 text-center" *ngFor="let video of videos">
+          <div class="card mb-3 cards">
+            <!--                  <img src="https://drive.google.com/file/d/1vslBPuWmROlqY5q-zIF1jamqooVtZXxn/preview" class="card-img-top image-main" alt="...">-->
+            <img src="{{video.picture}}" alt="" class="card-img-top image-main">
+            <div class="card-body">
+              <h5 class="card-title">{{video.tittle}}</h5>
+              <div class="">
+                <div>
+                  <!--                        <button [(ngModel)]="video.link" [(ngModel)]="video.title" type="button" class="btn btn-dark" (click)="verVideo(video.link,video.title)" style="margin-right: 5px;">Ver Video</button>-->
+                  <!--                        <button type="button" class="btn btn-danger sair-buttao " [(ngModel)]="video.id" (click)="bookMarkVideo(video.id)" >Favoritos</button>-->
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <hr color="red">
+    </div>
+
+    <div>
+      <hr>
+    </div>
+  </div>
+</section>

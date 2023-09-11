@@ -1,0 +1,240 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "download": [
+    {
+      "id": 0,
+      "link": "https://drive.usercontent.google.com/download?id=1APdx24LUAq3pxaDuzSJPyb7qPjffBnnR&export=download&authuser=0&confirm=t&uuid=3f1b099f-721b-4547-b0de-bbcddc73dcfc&at=APZUnTV39qMZQii0CH94PQe6q--6:1694017622499"
+    },
+    {
+      "id": 1,
+      "link": "https://drive.usercontent.google.com/download?id=12dZAftY1-J-0eKBjglfKNkBUXLevSfns&export=download&authuser=0&confirm=t&uuid=eda42650-d661-427f-bc6c-866aea111212&at=APZUnTXFYNLxYTm_-7pzG2DgFWcW:1693824759572"
+    },
+    {
+      "id": 2,
+      "link": "https://drive.usercontent.google.com/download?id=1k_QswFE-Pvi94O5uX2Bc1gNJcR44YWRz&export=download&authuser=0&confirm=t&uuid=256bc9d0-e92b-41b7-a341-c7008c3a67e0&at=APZUnTXcgfPFAoLHEFR6AMgjwL_m:1693869431936"
+    },
+    {
+      "id": 3,
+      "link": "https://drive.usercontent.google.com/download?id=1F_xC64HCeYyC4FG65JKTBzmi56V0bGhZ&export=download&authuser=0&confirm=t&uuid=dfc8a22f-8ab8-448e-8b67-9580ac48b624&at=APZUnTXPilj-baJNQUGRWmiFkMMU:1693911934713"
+    },
+    {
+      "id": 4,
+      "link": "https://drive.usercontent.google.com/download?id=15_bKTE6pYTqJLbvdxYd51id-HSUbOfy6&export=download&authuser=0&confirm=t&uuid=8ff34276-33ff-44e2-aa27-27806cbc05c8&at=APZUnTWt87N11lbfo-INIoAJpOWj:1693912079499"
+    },
+    {
+      "id": 5,
+      "link": "https://drive.usercontent.google.com/download?id=1boFfeGRnYOL4q-k2CrvaWKRhVFdOOiXh&export=download&authuser=0&confirm=t&uuid=ad328290-fe7b-4c1a-b45f-85c8710b821a&at=APZUnTW9zU6RDGYaedn2Z3fv34G7:1693912149090"
+    },
+    {
+      "id": 6,
+      "link": "https://drive.usercontent.google.com/download?id=1FnGvVgMIcaekYuk1LzSWOZrPhPOeqxT2&export=download&authuser=0&confirm=t&uuid=c9540995-7563-413a-ad4d-dac0e6363055&at=APZUnTVPmpRyNNeCVLxajyr2eN-7:1693912193291"
+    },
+    {
+      "id": 7,
+      "link": "https://drive.usercontent.google.com/download?id=16skWkLbo8j-7_JzhpevRx2luTk6UG7fe&export=download&authuser=0&confirm=t&uuid=65c91a81-ccad-4759-88e4-ddcfcf3f2a2b&at=APZUnTUVnwsZpH8teN1iFKkgQO09:1693912225679"
+    }
+  ],
+  "video": [
+    {
+      "id": 0,
+      "picture": "https://drive.google.com/uc?id=1OixsQj0ckKsIh3pdJV5Hmt2ezlmbjhR7",
+      "title": "User Guide",
+      "link": "https://drive.google.com/file/d/1APdx24LUAq3pxaDuzSJPyb7qPjffBnnR/preview",
+      "type": "Guia",
+      "year": "2023",
+      "PG": "",
+      "duration": "4 min",
+      "synopse": "Tutorial do de funcionamento do a aplicação."
+    },
+    {
+      "id": 1,
+      "picture": "https://drive.google.com/uc?id=1XSPtFelCtp3gm-OBS9GZlgT500IvVKMM",
+      "title": "TOP GUN - 1986",
+      "link": "https://drive.google.com/file/d/12dZAftY1-J-0eKBjglfKNkBUXLevSfns/preview",
+      "type": "Accão",
+      "year": "1986",
+      "PG": "13+",
+      "duration": "100 min",
+      "synopse": "A escola naval de pilotos é onde o melhor dos melhores treinam para refinar suas habilidades de voo de elite. Quando o piloto Maverick é enviado para a escola, sua atitude irresponsável e comportamento arrogante o colocam em desacordo com os outros pilotos, especialmente Iceman. Porém Maverick não está apenas competindo para ser o piloto superior de caça, ele também está lutando pela atenção de sua bonita instrutora de voo, Charlotte Blackwood."
+    },
+    {
+      "id": 2,
+      "picture": "https://drive.google.com/uc?id=13ENsaDg23y-Z4Cv2GowC8MT45Pm8BvLE",
+      "title": "Fast & Furious X",
+      "link": "https://drive.google.com/file/d/1k_QswFE-Pvi94O5uX2Bc1gNJcR44YWRz/preview",
+      "type": "Accão",
+      "year": "2023",
+      "PG": "13+",
+      "duration": "160 min",
+      "synopse": "A estrada final começa! Dom Torretto e sua família passaram por bons e maus momentos juntos, tendo sucesso em várias missões e lutando contra vários vilões. Mas agora Dom é colocado à prova quando enfrenta Dante Reyes, filho de um velho inimigo que quer vingar-se da morte de seu pai. Com o tempo se esgotando e a ajuda de novos aliados, Dom e sua família enfrentam a luta de suas vidas contra o maior inimigo que já enfrentaram."
+    },
+    {
+      "id": 3,
+      "picture": "https://drive.google.com/uc?id=1sNsc6Wo1YSoasir5mk2dJueMEBjP5xjB",
+      "title": "Elite Powerlifter",
+      "link": "https://drive.google.com/file/d/1F_xC64HCeYyC4FG65JKTBzmi56V0bGhZ/preview",
+      "type": "Comédia",
+      "year": "2021",
+      "PG": "10+",
+      "duration": "15 min",
+      "synopse": "Elite Powerlifter finge ser o homem da limpeza, pregando partida aos demais no Ginásio!"
+    },
+    {
+      "id": 4,
+      "picture": "https://drive.google.com/uc?id=1jgxW6iNmCkfdgK7M7kQMvzSZg6iqZEZR",
+      "title": "Alone",
+      "link": "https://drive.google.com/file/d/15_bKTE6pYTqJLbvdxYd51id-HSUbOfy6/preview",
+      "type": "Terror",
+      "year": "2020",
+      "PG": "17+",
+      "duration": "98 min",
+      "synopse": "Uma viajante recentemente viúva é sequestrada por um assassino de sangue frio. Quando consegue escapar, é forçada a lutar contra os elementos do deserto enquanto seu perseguidor se aproxima."
+    },
+    {
+      "id": 5,
+      "picture": "https://drive.google.com/uc?id=1R7INNqws3im5YsMvTfCfeIxaMokv7QCB",
+      "title": "Expendables 4 (Trailer)",
+      "link": "https://drive.google.com/file/d/1boFfeGRnYOL4q-k2CrvaWKRhVFdOOiXh/preview",
+      "type": "Acção",
+      "year": "09/2023",
+      "PG": "13+",
+      "duration": "2 min",
+      "synopse": "Trailer da 4ª saga do filme Expendables 4, será lançado no site no dia 22 de Setembro de 2023. Muita acção espera por vocês!"
+    },
+    {
+      "id": 6,
+      "picture": "https://drive.google.com/uc?id=1ogsBEQwcn4ZmksBQGVGoYw9F0SQRW4AH",
+      "title": "Lançamentos 2023",
+      "link": "https://drive.google.com/file/d/1FnGvVgMIcaekYuk1LzSWOZrPhPOeqxT2/preview",
+      "type": "-",
+      "year": "2023",
+      "PG": "-",
+      "duration": "31 min",
+      "synopse": "Muitos lançamentos são esperados até ao final do ano 2023, no qual damos-vos a conhecer alguns."
+    },
+    {
+      "id": 7,
+      "picture": "https://drive.google.com/uc?id=17_7HtNiKfNJg8VahuEecq_cRJEHHk8wK",
+      "title": "Looney Toons",
+      "link": "https://drive.google.com/file/d/16skWkLbo8j-7_JzhpevRx2luTk6UG7fe/preview",
+      "type": "Comédia",
+      "year": "1998",
+      "PG": "NR",
+      "duration": "28 min",
+      "synopse": "Looney Toons criado em 1940, veio animar a todas as gerações e idades. Buggs Bunny, Daffy Duck, Coyote, Silvester, e muitos outros transformam os seus dias maus em bons em poucos minutos!"
+    }
+  ],
+  "musica": [],
+  "bookmark": [
+    {
+      "userid": 8,
+      "videoid": 1,
+      "id": 1
+    },
+    {
+      "userid": 10,
+      "videoid": 1,
+      "id": 2
+    },
+    {
+      "userid": 10,
+      "videoid": 2,
+      "id": 3
+    },
+    {
+      "userid": 11,
+      "videoid": 0,
+      "id": 4
+    }
+  ],
+  "user": [
+    {
+      "id": 0,
+      "user": "Gue",
+      "email": "marciomiran@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 1,
+      "user": "Guedes",
+      "email": "marciomirandaguedes@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "user": "Marques",
+      "email": "jmarques@gmail.com",
+      "password": "15642"
+    },
+    {
+      "id": 3,
+      "user": "Hiten",
+      "email": "phiten@gmail.com",
+      "password": "23451"
+    },
+    {
+      "id": 4,
+      "user": "Zocotolas",
+      "email": "jmarques@gmail.com",
+      "password": "15642"
+    },
+    {
+      "id": 5,
+      "user": "zocotolas",
+      "email": "zocotolas@gmail.com",
+      "password": "zocotolas"
+    },
+    {
+      "id": 6,
+      "user": "Pranay",
+      "email": "pranayjose@gmail.com",
+      "password": "pranay"
+    },
+    {
+      "id": 7,
+      "user": "Pranaya",
+      "email": "",
+      "password": "aaa"
+    },
+    {
+      "id": 8,
+      "user": "GG",
+      "email": "GG@gmail.com",
+      "password": "gg"
+    },
+    {
+      "id": 9,
+      "user": "asdasd",
+      "email": "GG",
+      "password": "aaaa"
+    },
+    {
+      "id": 10,
+      "user": "Gerson",
+      "email": "Fedition@gmail.com",
+      "password": "GERSON23"
+    },
+    {
+      "id": 11,
+      "user": "zzz",
+      "email": "Zzz@gmail.com",
+      "password": "zzz"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
