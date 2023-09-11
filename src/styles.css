@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.cdnfonts.com/css/cooper-hewitt-book?styles=16610,16606");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.image-main{
+  /*height: 245px;*/
+  height: 203px;
+}
+.card-title{
+  color: black;
+  font-size: 20px!important;
+}
+.sair-buttao:hover{
+  transform:scale(1.05);
+}
+.cards:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(255, 14, 14, 0.12), 0 4px 8px rgba(255, 0, 0, 0.06);
+}
+body{
+  background-color: #232323;
+  color: white;
+  font-family: "Cooper Hewitt Medium", sans-serif !important;
+}
+.margin-top{
+  margin-top: 30px;
+}
+.margin{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+footer{
+  background-color: black;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
